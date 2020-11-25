@@ -16,7 +16,7 @@ namespace LINQ
         }
 
         //il primo valore degli extension method deve essere la classe estesa
-        // e si chima sempre value
+        // e si chiama sempre value
         public static string WithPrefix(this string value, string prefix)
         {
             return $"{prefix}-{value}"; //String interpolation
@@ -26,9 +26,9 @@ namespace LINQ
 
         
 
-        public static string ToString(this double value) //doublesi riferisce alla classe double
-        { 
-        return "";
+        public static string ToString(this double value) //double
+        {                                             //si riferisce alla classe double
+            return "";
         }
     }
 }
